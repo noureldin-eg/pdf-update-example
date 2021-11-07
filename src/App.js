@@ -19,6 +19,7 @@ const App = () => {
         <MyDocument timeout={time} />
       </PDFViewer>
       <embed src={instance.url} width='100%' type='application/pdf' />
+      <button onClick={updateInstance}>Update Instance</button> 
     </>
   );
 };
