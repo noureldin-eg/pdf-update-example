@@ -16,14 +16,14 @@ const styles = StyleSheet.create({
 });
 
 // Create Document Component
-const MyDocument = () => (
+const MyDocument = (props) => (
   <Document>
     <Page size='A4' style={styles.page}>
       <View style={styles.section}>
         <MyTimeout />
       </View>
       <View style={styles.section}>
-        <Text>Section #2</Text>
+        <Text>Time {props.timeout}</Text>
       </View>
     </Page>
   </Document>
