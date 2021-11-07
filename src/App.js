@@ -3,7 +3,7 @@ import "./App.css";
 import MyDocument from "./MyDocument";
 
 const App = () => (
-  <PDFViewer>
+  <PDFViewer width="100%">
     <MyDocument />
   </PDFViewer>
 );
