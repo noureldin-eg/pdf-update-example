@@ -1,5 +1,6 @@
 import React from "react";
 import { Page, Text, View, Document, StyleSheet } from "@react-pdf/renderer";
+import MyTimeout from "./MyTimeout";
 
 // Create styles
 const styles = StyleSheet.create({
@@ -19,7 +20,7 @@ const MyDocument = () => (
   <Document>
     <Page size='A4' style={styles.page}>
       <View style={styles.section}>
-        <Text>Section #1</Text>
+        <MyTimeout />
       </View>
       <View style={styles.section}>
         <Text>Section #2</Text>
