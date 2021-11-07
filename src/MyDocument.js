@@ -23,7 +23,7 @@ const MyDocument = (props) => (
         <MyTimeout />
       </View>
       <View style={styles.section}>
-        <Text>Time {props.timeout}</Text>
+        <Text>Props.Time {props.timeout}</Text>
       </View>
     </Page>
   </Document>

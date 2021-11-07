@@ -7,7 +7,7 @@ const MyTimeout = () => {
     const timer = setTimeout(() => setTime("out"), 3000);
     return () => clearTimeout(timer);
   }, []);
-  return <Text>Time {time}</Text>;
+  return <Text>MyTime {time}</Text>;
 };
 
 export default MyTimeout;
