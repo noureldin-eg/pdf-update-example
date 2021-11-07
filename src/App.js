@@ -15,11 +15,13 @@ const App = () => {
   });
   return (
     <>
+      <h1>PDFViewer:</h1>
       <PDFViewer width='100%'>
         <MyDocument timeout={time} />
       </PDFViewer>
+      <h1>usePDF:</h1>
       <embed src={instance.url} width='100%' type='application/pdf' />
-      <button onClick={updateInstance}>Update Instance</button> 
+      <button onClick={updateInstance}>Update Instance</button>
     </>
   );
 };
